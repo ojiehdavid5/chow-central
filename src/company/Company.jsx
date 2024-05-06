@@ -5,9 +5,12 @@ import Header from './Header'
 const Company = () => {
   return (
     <>
-    
-        <Nav/>
+    <div className="ml-[4rem] mr-[2rem] ">
+    <Nav/>
         <Header/>
+
+    </div>
+    
       
     </>
   )
