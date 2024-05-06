@@ -8,7 +8,7 @@ import rice from '../assets/company/rice.png'
 const Header = () => {
   return (
     <div className='min-h-screen mt-[7rem]'>
-      <div className="flex flex-row min-w-screen h-full space-x-9">
+      <div className="flex flex-row min-w-screen h-full space-x-3">
         <div className="flex flex-col  bg-[#2B2222] w-[40rem] h-[45rem]">
 
           <div className="flex space-x-0 ml-9">
@@ -26,12 +26,12 @@ const Header = () => {
 
         </div>
         <div className=" flex">
-          <div className="flex flex-col">
+          <div className="flex flex-col space-x-3">
             <img src={suya}  className='w-[30rem]' alt="" />
             <img src={chicken} className='w-[30rem]' alt="" />
           </div>
 
-<img src={rice}  className='w-[30rem]' alt="" />
+<img src={rice}  className='w-[30rem] space-x-6' alt="" />
         </div>
 
 
