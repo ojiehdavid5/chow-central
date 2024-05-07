@@ -3,7 +3,7 @@ import logo from '../assets/company/logo.png'
 
 const Nav = () => {
   return (
-    <nav className='w-[87rem] h-[5rem] bg-[#2B2222]  flex items-center justify-center  -ml-[2.5rem] absolute top-5 rounded-[2rem]  '>
+    <nav className='w-[87rem] h-[5rem] bg-[#2B2222]  flex items-center justify-center  -ml-[2.5rem] sticky top-5 rounded-[2rem]  z-[99] '>
     <div className="flex items-center justify-between w-full">
       <img src={logo}
       className='w-[35px] ml-[2rem] bg-[#2B2222] rounded-full'

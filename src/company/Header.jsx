@@ -19,16 +19,16 @@ const Header = () => {
             <img src={demand} className='mr-6 absolute left-[15rem]  w-[12rem]'  alt="" />
           </div>
           <div className=" text-center mt-[20rem]">
-            <h1 className='text-white text-[3rem]'>About Us</h1>
-            <p className='text-white text-xl text-left'>We are an online food delivery platform <br/>committed to offering a convenient and dependable way for customers to order food from our diverse range of restaurants. With us, you can have your meals delivered straight to your doorstep in minutes!</p>
+            <h1 className='text-black text-[3rem]'>About Us</h1>
+            <p className='text-black text-xl font-bold text-left'>We are an online food delivery platform <br/>committed to offering a convenient and dependable way for customers to order food from our diverse range of restaurants. With us, you can have your meals delivered straight to your doorstep in minutes!</p>
           </div>
 
 
         </div>
         <div className=" flex">
           <div className="flex flex-col ">
-            <img src={suya}  className='w-[30rem] ' alt="" />
-            <img src={chicken} className='w-[30rem] mt-[1rem]' alt="" />
+            <img src={suya}  className='w-[30rem]  h-[25rem]' alt="" />
+            <img src={chicken} className='w-[30rem] mt-[1rem] ' alt="" />
           </div>
 
         </div>
