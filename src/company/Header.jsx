@@ -9,7 +9,7 @@ const Header = () => {
   return (
     <div className='min-h-screen mt-[7rem]'>
       <div className="flex flex-row min-w-screen h-full space-x-3">
-        <div className="flex flex-col  bg-[#2B2222] w-[40rem] h-[45rem]">
+        <div className="flex flex-col  bg-[#EDE5DC] w-[40rem] h-[45rem]">
 
           <div className="flex space-x-0 ml-9">
           <img src={spin} 
