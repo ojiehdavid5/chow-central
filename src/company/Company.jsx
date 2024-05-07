@@ -6,7 +6,7 @@ import Video from './Video'
 const Company = () => {
   return (
     <>
-    <div className="ml-[4rem] mr-[2rem] ">
+    <div className="ml-[4rem] mr-[2rem]  ">
     <Nav/>
         <Header/>
         <Video/>
