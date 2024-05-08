@@ -13,9 +13,10 @@ const Company = () => {
         <Header/>
         <Video/>
         <Career/>
-        <Footer/>
 
     </div>
+    <Footer/>
+
     
       
     </>
