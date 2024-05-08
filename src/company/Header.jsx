@@ -7,32 +7,32 @@ import rice from '../assets/company/rice.png'
 
 const Header = () => {
   return (
-    <div className='min-h-screen mt-[7rem]'>
-      <div className="flex flex-row min-w-screen h-full gap-6">
-        <div className="flex flex-col  bg-[#EDE5DC] w-[50rem] h-[45rem] p-[2rem] rounded-lg">
+    <div className='min-h-screen mt-[7rem] '>
+      <div className="flex flex-row  gap-6 ">
+        <div className="flex flex-col  bg-[#EDE5DC] p-[2rem] rounded-lg ">
 
-          <div className="flex space-x-0 ml-9  items-center justify">
+          <div className="flex space-x-0 ml-9  items-center">
           <img src={spin} 
           className='animate-spin ml-6  w-[8rem]'
           alt="" />
 
             <img src={demand} className='mr-6 absolute left-[15rem]  w-[12rem]'  alt="" />
           </div>
-          <div className=" text-center mt-[20rem]">
-            <h1 className='text-black text-[3rem]'>About Us</h1>
-            <p className='text-black text-xl font-bold text-left'>We are an online food delivery platform <br/>committed to offering a convenient and dependable way for customers to order food from our diverse range of restaurants. With us, you can have your meals delivered straight to your doorstep in minutes!</p>
+          <div className=" text-center mt-[7rem]">
+            <h1 className='text-black text-[3rem]  '>About Us</h1>
+            <p className='text-black text-xl font-bold text-left   '>We are an online food delivery platform <br/>committed to offering a convenient and dependable way for customers to order food from our diverse range of restaurants. With us, you can have your meals delivered straight to your doorstep in minutes!</p>
           </div>
 
 
         </div>
         <div className=" flex">
-          <div className="flex flex-col ">
-            <img src={suya}  className='w-[30rem]  h-[25rem]' alt="" />
-            <img src={chicken} className='w-[30rem] mt-[1rem] ' alt="" />
+          <div className="flex flex-col  space-y-5">
+            <img src={suya}  className='  w-[90rem]' alt="" />
+            <img src={chicken} className='w-[80rem]' alt="" />
           </div>
 
         </div>
-        <img src={rice}  className='w-[30rem] space-x-6 h-[47rem]' alt="" />
+        <img src={rice}  className=' space-x-6 h-[42rem]' alt="" />
 
 
 
