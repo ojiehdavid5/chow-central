@@ -3,6 +3,7 @@ import Nav from './Nav'
 import Header from './Header'
 import Video from './Video'
 import Career from './Career'
+import Footer from './Footer'
 
 const Company = () => {
   return (
@@ -12,6 +13,7 @@ const Company = () => {
         <Header/>
         <Video/>
         <Career/>
+        <Footer/>
 
     </div>
     
