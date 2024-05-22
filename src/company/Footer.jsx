@@ -36,6 +36,10 @@ const Footer = () => {
 </p>
 <p>Terms & Conditions</p>
 
+
+
+
+
       </span>
     </div>
 
