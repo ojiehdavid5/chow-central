@@ -22,6 +22,14 @@ const Footer = () => {
             <li className='text-2xl text-white'>Contact</li>
             <li className='text-2xl text-white'>hello@chowcentral.com</li>
             <li className='text-2xl text-white'>+2349021077210</li>
+
+
+
+
+
+
+
+            
         </ul>
          
       </div>
